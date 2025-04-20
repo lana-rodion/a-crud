@@ -28,7 +28,7 @@ npm i @fortawesome/fontawesome-free
 
 #### Update angular.json after frontend toolkits installation
 
-In "architect/build/options/styles add:
+In architect/build/options/styles add:
 
 ```
 "styles": [
@@ -38,7 +38,7 @@ In "architect/build/options/styles add:
 ],
 ```
 
-In "architect/build/options/scripts add:
+In architect/build/options/scripts add:
 
 ```
 "scripts": [

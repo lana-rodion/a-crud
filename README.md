@@ -1,6 +1,54 @@
 # ACrud
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.7.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.8.
+
+### Inspiration
+
+The project was inspired by the Angular 19 CRUD Example Tutorial found on the [ItSolutionStuff.com website](https://www.itsolutionstuff.com/post/angular-19-crud-application-tutorial-exampleexample.html).
+
+### Fix and improving
+
+The tutorial for Angular 19 on the ItSolutionStuff.com website the contained some errors and incompatibilities. I have been fixed and improved its. UI was improved too.
+
+## Frontend toolkit:
+
+### To install Bootstrap 5.3.5, run:
+
+```bash
+npm install bootstrap@5.3.5
+```
+
+### Fontawesome-free Installation
+
+It might be useful to install fontawesome-free for icons usage, run:
+
+```bash
+npm i @fortawesome/fontawesome-free
+```
+
+#### Update angular.json after frontend toolkits installation
+
+In "architect/build/options/styles add:
+
+```
+"styles": [
+  "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+  "node_modules/bootstrap/dist/css/bootstrap.min.css",
+  "src/styles.css"
+],
+```
+
+In "architect/build/options/scripts add:
+
+```
+"scripts": [
+  "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+]
+```
+
+## Web Service API
+
+The data was mocked with [JSONPlaceholder](https://jsonplaceholder.typicode.com/) wich provides all the necessary APIs to do Create, Read, Update and Delete data (CRUD).
 
 ## Development server
 

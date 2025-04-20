@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+.title {
+  color: #242b44;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.title a {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.actions {
+  min-width: 225px;
+}

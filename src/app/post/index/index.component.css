@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+.actions {
+  min-width: 225px;
+}
+
+.container-table {
+  position: relative;
+  display: flex;
+  min-height: 0;
+  max-height: calc(90vh - 12rem);
+  overflow: auto;
+}
+
+.link {
+  display: flex;
+  height: 1.5rem;
+}
+
+.legend {
+  font-size: 0.9rem;
+  color: #505683;
+}
